@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>menu</title>
+
+
+    <link rel='stylesheet prefetch'
+          href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <style>
+
+
+        #list {
+            font-family: Arial, serif;
+            border-collapse: collapse;
+            width: 55%;
+        }
+
+        #list td {
+            border: 1px solid #000;
+            padding: 2px;
+            text-align: center;
+        }
+
+        #list tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #list tr:hover {
+            background-color: #025395;
+        }
+
+        #list th {
+            text-align: center;
+            background-color: #025395;
+            color: white;
+            font-family: serif;
+            border-collapse: collapse;
+            width: 55%;
+        }
+
+        #listSelect {
+            font-family: serif;
+            border-collapse: collapse;
+            width: 55%;
+            background-color: #FFF;
+            padding: 2px;
+            border: 1px solid #000;
+
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+
+
+<div class="menu-card">
+    <img src="logo.png" width="235" height="125" alt="churchLogo" longdesc="http://logo.com">
+    <div class="center-card">
+
+
+        <table id="list">
+            <tr>
+                <th colspan="2" height="10px" style="width:50%">Upcoming</th>
+            </tr>
+            <tr>
+                <th>Birthdays</th>
+                <th>Anniversaries</th>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+
+            </tr>
+
+            <div class="menu-links">
+
+                <p><a href="default.asp">Members:</a></p>
+                <p><a href="default.asp">Treasury:</a></p>
+                <p><a href="default.asp">Reports:</a></p>
+
+                <table id="listSelect">
+
+                    <tr>
+                        <th><a href="">Birthday List</a></th>
+                        <th><a href="">Anniversary List</a></th>
+                    </tr>
+
+
+            </div>
+
+    </div>
+    <div>
+        <select id="MonthSelect">
+            <option>Month</option>
+            <option>January</option>
+            <option>Febuary</option>
+        </select>
+    </div>
+</div>
+
+
+</body>
+</html>
