@@ -1,0 +1,96 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+.clickable{
+    cursor: pointer;
+}
+.loading-content{
+    color:#2b669a;
+}
+
+.row-changed{
+    background:#5cb85c;
+    -webkit-transition:background 0.5s;
+    transition:background 0.5s;
+}
+.form-group .control-label.required:after {
+    content:"*";
+    color:red;
+    padding-left: 2px;
+}
+span.required:after {
+    content:"*";
+    color:red;
+    padding-left: 2px;
+}
+
+table.entities {
+    margin-bottom: 0px;
+}
+
+table.entities.td {
+    padding: 3px
+}
+
+td.entityAttributeCtr {
+    width: 2%;
+    text-align: left;
+}
+
+td.entityAttribute {
+    width: 60%;
+    text-align: left;
+}
+
+td.entityAttributeLabel {
+    width: 38%;
+    text-align: left;
+}
+
+.description {
+    padding: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 100%;
+}
+
+.description:hover {
+    position:absolute;
+    overflow:visible;
+    white-space: normal;
+    max-width: none;
+    height:auto;
+    background:#fff;
+}
+
+.app-modal-window .modal-dialog {
+    width: 60%;
+}
+
+.modal-dialog.row {
+    margin-right: 10%;
+}
+
+textarea {
+    resize: none;
+}
+
+fieldset {
+    margin: 8px;
+    border: 1px solid silver;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.reportDisplay{
+    overflow:scroll;
+    height: 250px;
+    overflow-y: auto;
+}

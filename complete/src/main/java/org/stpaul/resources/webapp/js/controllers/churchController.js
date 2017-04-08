@@ -1,0 +1,1 @@
+var churchController = angular.module("church-controller", []);

@@ -1,0 +1,1 @@
+var churchDirective = angular.module('church-directive', []);

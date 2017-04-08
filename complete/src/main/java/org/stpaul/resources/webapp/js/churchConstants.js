@@ -1,0 +1,2 @@
+appConfig.constant('churchConfig', {
+});
