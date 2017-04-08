@@ -30,21 +30,6 @@ public class ChurchMemberServiceBean extends BaseServiceBean<ChurchMember, Churc
     }
 
     @Override
-    public ChurchMember create(ChurchMember var1) {
-        return null;
-    }
-
-    @Override
-    public ChurchMember update(ChurchMember var1) {
-        return null;
-    }
-
-    @Override
-    public void delete(Long var1) {
-
-    }
-
-    @Override
     public void evictCache() {
 
     }

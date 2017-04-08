@@ -1,0 +1,1 @@
+var churchService = angular.module("church-service",[]);

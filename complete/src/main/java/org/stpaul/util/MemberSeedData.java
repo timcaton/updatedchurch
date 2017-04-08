@@ -8,6 +8,7 @@ import org.springframework.core.Ordered;
 import org.springframework.stereotype.Component;
 import org.stpaul.model.ChurchMember;
 import org.stpaul.repository.ChurchMemberRepository;
+import org.stpaul.service.ChurchMemberService;
 
 /**
  * Created by tjc4h on 3/28/2017.
@@ -19,6 +20,9 @@ public class MemberSeedData implements ApplicationListener<ContextRefreshedEvent
     @Autowired
     private ChurchMemberRepository churchMemberRepository;
 
+    @Autowired
+    private ChurchMemberService churchMemberService;
+
     @Override
     public void onApplicationEvent(ContextRefreshedEvent event) {
         loadChurchMemberSeedData();
@@ -29,7 +33,7 @@ public class MemberSeedData implements ApplicationListener<ContextRefreshedEvent
         churchMember.setFirstName("Tim");
         churchMember.setLastName("Caton");
 
-        churchMemberRepository.save(churchMember);
+        churchMemberService.create(churchMember);
     }
 
     @Override
