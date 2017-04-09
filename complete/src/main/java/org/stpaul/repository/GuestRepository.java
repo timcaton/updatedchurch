@@ -1,8 +1,7 @@
 package org.stpaul.repository;
 
 import org.springframework.stereotype.Repository;
-import org.stpaul.BaseJpaRepository;
-import org.stpaul.model.ChurchMember;
+import org.stpaul.configuration.BaseJpaRepository;
 import org.stpaul.model.Guest;
 
 /**

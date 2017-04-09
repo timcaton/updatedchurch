@@ -21,7 +21,7 @@ churchApp.config(['stateHelperProvider', '$urlRouterProvider', '$urlMatcherFacto
         stateHelperProvider.state({
             name: "home",
             url: "/home",
-            templateUrl: "components/index.html"
+            templateUrl: "components/index.ftl"
         }).state({
             name: "login",
             url: "/login",

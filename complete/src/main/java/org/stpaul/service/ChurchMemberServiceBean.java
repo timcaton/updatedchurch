@@ -2,7 +2,7 @@ package org.stpaul.service;
 
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.stereotype.Service;
-import org.stpaul.BaseServiceBean;
+import org.stpaul.configuration.BaseServiceBean;
 import org.stpaul.model.ChurchMember;
 import org.stpaul.repository.ChurchMemberRepository;
 

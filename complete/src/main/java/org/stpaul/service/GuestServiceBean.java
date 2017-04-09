@@ -2,10 +2,8 @@ package org.stpaul.service;
 
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.stereotype.Service;
-import org.stpaul.BaseServiceBean;
-import org.stpaul.model.ChurchMember;
+import org.stpaul.configuration.BaseServiceBean;
 import org.stpaul.model.Guest;
-import org.stpaul.repository.ChurchMemberRepository;
 import org.stpaul.repository.GuestRepository;
 
 import javax.validation.constraints.NotNull;

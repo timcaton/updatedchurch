@@ -1,11 +1,10 @@
 package org.stpaul.model;
 
-import org.stpaul.TransactionalEntity;
+import org.stpaul.configuration.TransactionalEntity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
-import java.util.Objects;
 
 @Entity
 @Table(name = "GUEST")

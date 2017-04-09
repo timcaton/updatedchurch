@@ -15,7 +15,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 @EnableScheduling
 @EnableAsync
-@EnableAutoConfiguration(exclude = MustacheAutoConfiguration.class)
 public class Application extends SpringBootServletInitializer {
     private static boolean EXIT_AFTER_START = false;
 

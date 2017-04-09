@@ -1,9 +1,7 @@
 package org.stpaul.service;
 
-import org.stpaul.BaseService;
-import org.stpaul.model.ChurchMember;
+import org.stpaul.configuration.BaseService;
 import org.stpaul.model.Guest;
-import org.stpaul.repository.ChurchMemberRepository;
 import org.stpaul.repository.GuestRepository;
 
 /**

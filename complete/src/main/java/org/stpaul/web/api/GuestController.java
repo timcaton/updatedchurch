@@ -9,10 +9,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import org.stpaul.BaseController;
-import org.stpaul.model.ChurchMember;
+import org.stpaul.configuration.BaseController;
 import org.stpaul.model.Guest;
-import org.stpaul.service.ChurchMemberService;
 import org.stpaul.service.GuestService;
 
 import java.util.List;

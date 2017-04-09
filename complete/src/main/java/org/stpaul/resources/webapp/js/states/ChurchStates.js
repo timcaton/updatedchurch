@@ -4,6 +4,6 @@ angular.module('church-app')
             name: 'member',
             url: '/member',
             pageTitle: 'Member Maintenance',
-            templateUrl: 'components/member.html'
+            templateUrl: 'components/member.ftl'
         });
 }]);

@@ -3,7 +3,8 @@ angular.module('church-app')
         stateHelperProvider.state({
             name: 'member',
             url: '/member',
+            controller: 'MemberController',
             pageTitle: 'Member Maintenance',
-            templateUrl: 'components/member.html'
+            templateUrl: 'partials/member.ftl'
         });
 }]);

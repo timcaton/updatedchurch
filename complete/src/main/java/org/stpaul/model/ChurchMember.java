@@ -1,6 +1,6 @@
 package org.stpaul.model;
 
-import org.stpaul.TransactionalEntity;
+import org.stpaul.configuration.TransactionalEntity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
